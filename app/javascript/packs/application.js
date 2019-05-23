@@ -14,5 +14,6 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+<%= javascript_pack_tag "application" %>
 import 'bootstrap';
 console.log('Hello World from Webpacker')
